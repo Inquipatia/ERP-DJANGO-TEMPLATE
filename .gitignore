@@ -1,16 +1,42 @@
+# Python
 *.pyc
-*.DS_Store
+__pycache__/
+*.pyo
+*.pyd
 *.egg*
-/dist/
-/.idea
-/docs/_build/
-/node_modules/
+*.egg-info/
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+
+# Sistema / editor
+.DS_Store
+*.DS_Store
+.idea/
+.vscode/
+
+# Build / dist
 build/
-env
+dist/
+/docs/_build/
+
+# Node / frontend assets
+node_modules/
+/node_modules/
+
+# Django
 /staticfiles/
+media/
 
-#src
-#*.sqlite*
+# Base de datos local
+*.sqlite3
+*.sqlite
+db.sqlite3
 
-#.env
-node_modules
+# Variables de entorno
+.env
+
+# Logs
+*.log
